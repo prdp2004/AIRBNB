@@ -1,0 +1,133 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    height: 5rem;
+    background-color: #ffffff;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+    font-weight: 500;
+}
+
+/* Footer */
+.f-info {
+    text-align: center;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+    gap: 0.5rem;
+}
+
+.f-info-links,
+.f-info-socials {
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-socials i {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Cards */
+.card {
+    border: none !important;
+    margin-bottom: 1.5rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 0.75rem 0 0 0 !important;
+}
+
+.card-text p {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.listing-link:hover {
+    color: inherit;
+}
+
+.card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* Buttons */
+.btn-red {
+    background-color: #fe424d !important;
+    color: #ffffff !important;
+    border: none;
+}
+
+.btn-red:hover {
+    background-color: #e0323d !important;
+    color: #ffffff !important;
+}
+
+.show-img {
+    height: 350px;
+    border-radius: 1rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/*MAP*/
+#map {
+    height: 400px;
+    width: 100%;
+}
